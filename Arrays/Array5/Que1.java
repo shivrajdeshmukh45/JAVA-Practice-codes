@@ -14,7 +14,7 @@ package Arrays.Array5;
 public class Que1 {
 
     public static void main(String[] args) {
-      int num=0;
+        int num=0;
         boolean isAsend =false;
     
     int arr[]=new int[]{1,9,11,14};

@@ -8,7 +8,7 @@ public class Que8 {
 
        Scanner sc=new Scanner(System.in);
 
-       System.out.print("Enter the count od Employee:");
+       System.out.print("Enter the count of Employee:");
        int size= sc.nextInt();
 
        int arr[]=new int[size];

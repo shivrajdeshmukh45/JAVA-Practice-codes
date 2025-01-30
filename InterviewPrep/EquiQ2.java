@@ -28,8 +28,6 @@ class EquiQ2{
         }
 
 
-
-
     public static void main(String[] args) {
         int arr[]= new int[] {9, 3, 7, 6, 8, 1, 10};
 

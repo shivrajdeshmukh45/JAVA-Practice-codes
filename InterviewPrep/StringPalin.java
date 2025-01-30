@@ -16,8 +16,7 @@ public class StringPalin {
     }
 
     public static void main(String[] args) {
-        String str="shiv
-        ";
+        String str="shiv";
         boolean is=isPalindrom(str);
         System.out.println(is);
         

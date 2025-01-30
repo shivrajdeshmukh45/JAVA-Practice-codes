@@ -31,6 +31,7 @@ public class Que6 {
                 break;
             }
         }
+                sc.close();
     }
     
 }

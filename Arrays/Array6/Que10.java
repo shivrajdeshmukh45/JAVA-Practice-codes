@@ -25,10 +25,11 @@ public class Que10 {
             }
         }
 
-//Third largest element in the Array
-        for(int i=0;i<arr.length;i++){
-             if(arr[i] >ThiredmaxEle && arr[i] < secmaxEle){
-            ThiredmaxEle=arr[i];
+            //Third largest element in the Array
+
+            for(int i=0;i<arr.length;i++){
+                 if(arr[i] >ThiredmaxEle && arr[i] < secmaxEle){
+                    ThiredmaxEle=arr[i];
         }
          
         }

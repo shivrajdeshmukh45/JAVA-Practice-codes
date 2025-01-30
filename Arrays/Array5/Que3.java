@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Que3 {
     // Function to check if an array is a palindrome
+    
     public static boolean isPalindrome(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n / 2; i++) {
