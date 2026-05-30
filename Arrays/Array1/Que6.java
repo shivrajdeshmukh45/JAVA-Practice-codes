@@ -1,6 +1,8 @@
 // 6. Write a program where you have to take input from the user for a character array and
 // print the characters.
 
+
+
 package Arrays.Array1;
 import java.util.Scanner;
 public class Que6 {

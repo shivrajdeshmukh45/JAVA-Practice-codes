@@ -1,5 +1,7 @@
 package DSA_array.BinarySearch;
 
+
+
 public class Ceiling {
 
     static int ceilingEle(int arr[],int target){
@@ -10,10 +12,9 @@ public class Ceiling {
         while (start<=end) {
             int mid=start +(end-start)/2;
 
-            // if(arr[mid]==target){
-            //     return mid;
+
             
-            // }
+
              if (target>arr[mid]) {
                 start=mid+1;
                 
@@ -30,8 +31,6 @@ public class Ceiling {
 
         
     }
-
-
     public static void main(String[] args) {
         int arr[]=new int[]{2,3,5,9,14,16,18};
         int target=15;

@@ -13,7 +13,7 @@ public class FiboAcc {
 
         for(int i=2;i<N;i++){
             fN=(f1*f1+f0*f0)%47;
-
+        
             f0=f1;
             f1=fN;
         }
@@ -29,3 +29,4 @@ public class FiboAcc {
     }
     
 }
+

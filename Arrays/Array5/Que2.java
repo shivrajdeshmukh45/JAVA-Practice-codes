@@ -1,3 +1,4 @@
+
 // Q2. WAP to print the sum of odd and even numbers in an array.
 // Enter the size of the array:
 // 6
@@ -11,6 +12,11 @@
 // Output:
 // Odd Sum = 40
 // Even Sum = 22
+
+
+
+
+
 package Arrays.Array5;
 
 public class Que2 {

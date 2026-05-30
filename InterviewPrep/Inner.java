@@ -26,7 +26,7 @@ class Outer{
 
     }
 
-
+ 
 
 
     }
@@ -41,4 +41,4 @@ class Client{
             Outer.Inner obj2=Obj.new Inner(210);
             Outer.Inner.Inner1 obj3=obj2.new Inner1();
     }
-}
+}  

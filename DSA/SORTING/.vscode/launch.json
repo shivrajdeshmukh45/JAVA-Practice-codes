@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Mthree3",
+            "request": "launch",
+            "mainClass": "Mthree3",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Mthree2",
+            "request": "launch",
+            "mainClass": "Mthree2",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Mthree",
+            "request": "launch",
+            "mainClass": "Mthree",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

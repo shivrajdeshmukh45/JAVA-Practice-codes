@@ -1,24 +1,22 @@
 package Arrays.Array1;
 import java.lang.reflect.Array;
 import java.util.*;
+
+
 class Que1{
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter size of Array:");
-        int size=sc.nextInt();
+     public static void main(String[] args) {
+        int arr[]={1,5,9,8,7,6};
+        int num=8;
+        
 
-
-        int arr[]= new int[size];
-
-
-        for(int i=0;i<arr.length;i++){
-            arr[i]=sc.nextInt();
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]==num){
+             System.out.print(i+": index");
+             break;
+            }
+            
+           
         }
-
-        // for(int i=0;i<arr.length;i++){
-        //     System.out.print(arr[i]);
-        
-        System.out.println(Arrays.toString(arr));
-        
     }
-}
+    
+    }

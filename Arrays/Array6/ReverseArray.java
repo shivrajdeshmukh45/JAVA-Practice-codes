@@ -5,12 +5,23 @@ public class ReverseArray {
         
         int arr[]=new int[]{1,2,3,4,5,6,7,8,9,10};
 
-        for(int i=0;i<arr.length/2;i++){
-            int temp=arr[i];
-            arr[i]=arr[arr.length-1-i];
-            arr[arr.length-1-i]=temp;
+        // for(int i=0;i<arr.length/2;i++){
+        //     int temp=arr[i];
+        //     arr[i]=arr[arr.length-1-i];
+        //     arr[arr.length-1-i]=temp;
 
+        // }
+        int left=0;
+        int right=arr.length-1;
+        while(left<right){
+            int temp=arr[left];
+            arr[left]=arr[right];
+            arr[right]=temp;
+
+            left++;
+            right--;
         }
+
 
         System.out.println("Reverse Array");
 

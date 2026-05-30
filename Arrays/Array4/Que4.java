@@ -1,4 +1,6 @@
-// 
+
+
+
 package Arrays.Array4;
 
 import java.util.Scanner;
@@ -18,7 +20,7 @@ public class Que4 {
                 arr[i]=sc.nextInt();
     
             }
-        
+    
             System.out.print("Enter the number to check:");
             int numTocheck=sc.nextInt();
 
@@ -43,3 +45,4 @@ public class Que4 {
 
     
 }
+

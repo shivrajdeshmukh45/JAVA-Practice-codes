@@ -9,38 +9,44 @@
 // 4
 // Output:
 // The second largest element in the array is: 3
+
+
+
 package Arrays.Array4;
+
 import java.util.*;
 
 public class Que3 {
-    
+
     public static void main(String[] args) {
-    
-        Scanner sc=new Scanner(System.in);
+
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the size of Arrray:");
-        int size= sc.nextInt();
+        int size = sc.nextInt();
 
-        int arr[]=new int[size];
+        int arr[] = new int[size];
 
-
-        for(int i=0;i<arr.length;i++){
-            arr[i]=sc.nextInt();
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
 
         }
-    int maxNum=arr[0];
-    int minNum=arr[0];
+        int maxNum = arr[0];
+        int secM = arr[0];
 
-    
-    
-    for(int i=0;i<arr.length;i++){
-        if(arr[i]>maxNum){
-            maxNum=arr[i];
-        }else if(arr[i]<maxNum && arr[i]!=maxNum){
-            minNum=arr[i];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > maxNum) {
+                maxNum = arr[i];
+            }
+
         }
-        
-}
-    System.out.println("Second largest no: "+minNum);
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != maxNum && secM < maxNum && secM != maxNum) {
+                secM = arr[i];
+            }
+
+        }
+        System.out.println("Second largest no: " + secM);
     }
 }

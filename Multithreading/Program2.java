@@ -1,14 +1,13 @@
 
 
-//Setting thred name by using Constructor
+//Setting thread name by using Constructor
 
 public class Program2 extends Thread{
     Program2(String str){
         super(str);
     }
 
-
-    public void run(){
+    public void run(){  
         System.out.println("In Run");
         
         try{
@@ -17,8 +16,7 @@ public class Program2 extends Thread{
 
         }
 
-    }
-    
+    } 
     
 }
 class Client{

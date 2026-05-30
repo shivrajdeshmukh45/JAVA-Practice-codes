@@ -12,16 +12,16 @@ public class Que3 {
 
         Scanner sc=new Scanner(System.in);
 
-        System.out.print("Enter the size of Arrray:");
-        int size= sc.nextInt();
+        // System.out.print("Enter the size of Arrray:");
+        // int size= sc.nextInt();
 
-        int arr[]=new int[size];
+       int arr[]={1,5,9,8,7,6};
 
 
-        for(int i=0;i<arr.length;i++){
-            arr[i]=sc.nextInt();
+        // for(int i=0;i<arr.length;i++){
+        //     arr[i]=sc.nextInt();
 
-        }
+        // }
 
         for(int i=0;i<arr.length;i++){
 

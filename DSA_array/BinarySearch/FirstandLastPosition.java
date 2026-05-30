@@ -14,7 +14,11 @@ package DSA_array.BinarySearch;
 
 
         int ans[]={-1,-1};
+
+
         //check for if first occurance is target first
+
+        
         int start=search(arr, target, true);
         int end=search(arr, target, false); //check for if first occurance is target last
          ans[0]=start;

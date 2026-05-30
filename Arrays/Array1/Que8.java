@@ -11,6 +11,7 @@ public class Que8 {
        System.out.print("Enter the count of Employee:");
        int size= sc.nextInt();
 
+       
        int arr[]=new int[size];
 
 

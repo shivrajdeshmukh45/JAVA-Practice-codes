@@ -9,6 +9,9 @@
 // 15
 // Output 1:
 // The given array is in ascending Order.
+
+
+
 package Arrays.Array5;
 
 public class Que1 {
@@ -17,7 +20,7 @@ public class Que1 {
         int num=0;
         boolean isAsend =false;
     
-    int arr[]=new int[]{1,9,11,14};
+    int arr[]=new int[]{1,9,11,14};  
 
     for(int i=0;i<arr.length;i++){
         if(arr[i]>num ){
@@ -27,6 +30,9 @@ public class Que1 {
           
         }else{
             isAsend=false;
+
+
+            
            
         }
 
@@ -37,7 +43,7 @@ public class Que1 {
     else{
         System.out.println("array is  not in Assending Order");
 
-    }
+    } 
     
     
 }

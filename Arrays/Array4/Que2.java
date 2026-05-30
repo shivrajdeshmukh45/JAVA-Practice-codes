@@ -13,6 +13,10 @@
 // 10
 // Output
 // The difference between the minimum and maximum elements is: 7
+
+
+
+
 package Arrays.Array4;
 
 import java.util.Scanner;
@@ -21,7 +25,7 @@ public class Que2 {
      public static void main(String[] args) {
     
             Scanner sc=new Scanner(System.in);
-    
+
             System.out.print("Enter the size of Arrray:");
             int size= sc.nextInt();
     
@@ -40,7 +44,8 @@ public class Que2 {
         for(int i=0;i<arr.length;i++){
             if(arr[i]>maxNum){
                 maxNum=arr[i];
-            }else if(arr[i]<minNum){
+            }
+            if(arr[i]<minNum){
                 minNum=arr[i];
             }
             

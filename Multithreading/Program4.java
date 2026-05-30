@@ -19,10 +19,10 @@ public class Program4 extends FuncClass implements Runnable {
         System.out.println("In Run Method");
         fun();
         gun();
-
     }
     
 }
+
 class ThreadIF{
     public static void main(String[] args) {
         Program4 pt= new Program4();
