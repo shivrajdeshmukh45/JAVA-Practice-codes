@@ -14,7 +14,7 @@ public class Que5 {
             j--;
         }
 
-        // Print the reversed array
+        // Print the reversed array to verify the result
         System.out.println("Reversed Array:");
         for (int num : arr) {
             System.out.print(num + " ");
